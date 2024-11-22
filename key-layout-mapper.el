@@ -97,6 +97,22 @@ If no convertable key contains base layout, use given `key' as-is."
               (split-string key " "))
     (string-join (seq-reverse result) " ")))
 
+;;;###autoload
+(defun key-layout-mapper-keymap-set (keymap key fn)
+  "Wrapping function for keymap-set with converted key
+with `key-layout-mapper-current-layout'"
+
+  (keymap-set keymap (key-layout-mapper--convert-key
+                      key-layout-mapper-current-layout
+                      key)
+              fn))
+
+;;;###autoload
+(defun key-layout-mapper-set-layout (layout)
+  "Set current layout for key conversion"
+  (when (symbolp layout)
+    (setq key-layout-mapper-current-layout layout)))
+
 ;; define layouts
 (key-layout-mapper-deflayout
  "qwerty"
