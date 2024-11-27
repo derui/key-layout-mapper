@@ -146,8 +146,8 @@ s t r d y ; n a e i '
 z k q g w b h , . /
 
 V M L C P X F O U J
-S T R D Y > N A E I ?
-Z K Q G W B H \" : <
+S T R D Y : N A E I \"
+Z K Q G W B H < > ?
 ")
 
 (provide 'key-layout-mapper)
