@@ -142,8 +142,8 @@ Z X C V B N M < > ?
 { } |
 
 v m l c p x f o u j
-s t r d y . n a e i /
-z k q g w b h ' ; ,
+s t r d y ; n a e i '
+z k q g w b h , . /
 
 V M L C P X F O U J
 S T R D Y > N A E I ?
