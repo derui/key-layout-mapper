@@ -4,7 +4,7 @@
 ;; Author: derui <derutakayu@gmail.com>
 ;; Maintainer: derui <derutakayu@gmail.com>
 ;; URL: 
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Package-Requires: ((emacs "29.1"))
 ;; Keywords: keybind keymap layout
 

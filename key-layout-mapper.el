@@ -4,7 +4,7 @@
 ;; Author: derui <derutakayu@gmail.com>
 ;; Maintainer: derui <derutakayu@gmail.com>
 ;; URL: https://github.com/derui/key-layout-mapper
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Created: 2024
 ;; Package-Requires: ((emacs "29.1"))
 ;; Keywords: keybind keymap layout
@@ -18,8 +18,7 @@
 ;; Define keymap like this:
 ;;
 ;; (key-layout-mapper-deflayout "sample"
-;;   (1 2 3 4 5 6 7 8 9 0
-;;    a b c d e f))
+;;   "text diagrams for ")
 ;;
 ;; and then, you use this layout for conversion between base layout.
 ;; Using base layout is `qwerty' always.
@@ -118,16 +117,12 @@ with `key-layout-mapper-current-layout'"
  "qwerty"
  "
 ` 1 2 3 4 5 6 7 8 9 0 - =
-~ ! @ # $ % ^ & * ( ) _ +
-
-[ ] \
-{ } |
-
-q w e r t y u i o p
+q w e r t y u i o p [ ] |
 a s d f g h j k l ; '
 z x c v b n m , . /
 
-Q W E R T Y U I O P
+~ ! @ # $ % ^ & * ( ) _ +
+Q W E R T Y U I O P { } \
 A S D F G H J K L : \"
 Z X C V B N M < > ?
 ")
@@ -136,18 +131,28 @@ Z X C V B N M < > ?
  "sturdy"
  "
 ` 1 2 3 4 5 6 7 8 9 0 - =
-~ ! @ # $ % ^ & * ( ) _ +
-
-[ ] \
-{ } |
-
-v m l c p x f o u j
+v m l c p x f o u j [ ] |
 s t r d y ; n a e i '
 z k q g w b h , . /
 
-V M L C P X F O U J
+~ ! @ # $ % ^ & * ( ) _ +
+V M L C P X F O U J { } \
 S T R D Y : N A E I \"
 Z K Q G W B H < > ?
+")
+
+(key-layout-mapper-deflayout
+ "graphite"
+ "
+` 1 2 3 4 5 6 7 8 9 0 [ ]
+b l d w z ' f o u j ; = |
+n r t s g y h a e i ,
+q x m c v k p . - /
+
+~ ! @ # $ % ^ & * ( ) { }
+B L D W Z _ F O U J : = \
+N R T S G Y H A E I ?
+Q X M C V K P > \" <
 ")
 
 (provide 'key-layout-mapper)
