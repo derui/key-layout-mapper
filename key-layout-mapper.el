@@ -155,5 +155,19 @@ N R T S G Y H A E I ?
 Q X M C V K P > \" <
 ")
 
+(key-layout-mapper-deflayout
+ "gallium"
+ "
+` 1 2 3 4 5 6 7 8 9 0 - =
+b l d c v j f o u , [ ] |
+n r t s g y h a e i /
+x q m w z k p ' ; .
+
+~ ! @ # $ % ^ & * ( ) _ +
+B L D C V J F O U < { } \
+N R T S G Y H A E I ?
+X Q M W Z K P \" : >
+")
+
 (provide 'key-layout-mapper)
 ;;; key-layout-mapper.el ends here
