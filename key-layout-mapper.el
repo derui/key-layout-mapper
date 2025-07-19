@@ -128,34 +128,6 @@ Z X C V B N M < > ?
 ")
 
 (key-layout-mapper-deflayout
- "sturdy"
- "
-` 1 2 3 4 5 6 7 8 9 0 - =
-v m l c p x f o u j [ ] |
-s t r d y ; n a e i '
-z k q g w b h , . /
-
-~ ! @ # $ % ^ & * ( ) _ +
-V M L C P X F O U J { } \
-S T R D Y : N A E I \"
-Z K Q G W B H < > ?
-")
-
-(key-layout-mapper-deflayout
- "graphite"
- "
-` 1 2 3 4 5 6 7 8 9 0 [ ]
-b l d w z ' f o u j ; = |
-n r t s g y h a e i ,
-q x m c v k p . - /
-
-~ ! @ # $ % ^ & * ( ) { }
-B L D W Z _ F O U J : = \
-N R T S G Y H A E I ?
-Q X M C V K P > \" <
-")
-
-(key-layout-mapper-deflayout
  "gallium"
  "
 ` 1 2 3 4 5 6 7 8 9 0 - =
@@ -167,6 +139,20 @@ x q m w z k p ' ; .
 B L D C V J F O U < { } \
 N R T S G Y H A E I ?
 X Q M W Z K P \" : >
+")
+
+(key-layout-mapper-deflayout
+ "focal"
+ "
+` 1 2 3 4 5 6 7 8 9 0 - =
+v l h g k q f o u j [ ] |
+s r n t b y c a e i /
+z x m d p ' w . ; ,
+
+~ ! @ # $ % ^ & * ( ) _ +
+V L H G K Q F O U J { } \
+S R N T B Y C A E I ?
+Z X M D P \" W > : <
 ")
 
 (provide 'key-layout-mapper)
